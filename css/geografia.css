@@ -4,7 +4,7 @@ body{
     
    
     
-    background-color: #ffffffab;
+    background-color: #41503cfb;
   
 	
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -93,7 +93,7 @@ nav ul{
 #popular-news{
 	display: flex;
 	flex-wrap: wrap;
-	margin: 80px 340px;
+	margin: 40px 570px;
     
 }
 #popular-news h2{
@@ -123,6 +123,7 @@ nav ul{
 }
 .carousel, .news-container{
 	position: relative;
+    text-shadow: 2px 2px 2px #000000, 2px 2px 1px #000000, 1px 1px 1px #131313;
 }
 .carousel-text{
 	position: absolute;
@@ -137,6 +138,7 @@ nav ul{
 }
 .news-container .carousel-text{
 	font-size: 28px;
+    background-color: #000000;
 }
 .carousel-date{
 	display: block;
@@ -170,11 +172,11 @@ section{
 	justify-content: space-between;
 }
 .world h2{	
-	background-color: #666666;
+	background-color: #41503cfb;
     padding: 10px;
 }
 .sport h2{
-	background-color: #666666;
+	background-color: #41503cfb;
 }
 
 
